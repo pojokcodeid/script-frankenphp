@@ -1,5 +1,5 @@
 # script-frankenphp
-
+```bash
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt install zip unzip curl -y
 sudo apt-get update
@@ -15,7 +15,7 @@ sudo mv frankenphp /usr/local/bin/
 mkdir -p ~/my-app && cd ~/my-app
 echo '<?php echo "Hello, FrankenPHP!"; ?>' > index.php
 sudo frankenphp php-server
-
+```
 Sumber :
 https://www.tecmint.com/install-frankenphp-on-ubuntu/
 https://php.watch/articles/php-84-install-upgrade-guide-debian-ubuntu
